@@ -1,0 +1,237 @@
+/* blog pages */
+.contentArea {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+.content {
+  display: flex;
+  box-sizing: border-box;
+  width: 980px;
+  margin: auto;
+}
+
+/* main area */
+.content main {
+  padding-right: 10px;
+}
+
+main article,
+.pages li,
+aside .searchBox,
+aside .tagSelect,
+aside .canlendar,
+aside .tags {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+/* article area */
+article .tagsArea {
+  display: inline-block;
+  background-color: #f7d08a;
+  width: 50px;
+  margin-left: -50px;
+  margin-top: 20px;
+}
+article .tagsArea p {
+  padding: 10px;
+  text-indent: 0;
+  /* display: inline-block; */
+}
+article .tagsArea p:last-child {
+  background-color: #ffca03;
+}
+
+article .text {
+  margin-top: -80px;
+  padding-bottom: 10px;
+}
+
+article .text h3 {
+  color: #ffca03;
+  padding: 0 20px;
+}
+
+article .text p {
+  padding: 5px 10px 0 10px;
+  line-height: 120%;
+}
+article .text .subtitle {
+  color: #666;
+  text-indent: 0%;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+article .text .signature {
+  color: #a8a8a8;
+  text-align: right;
+  font-size: 14px;
+}
+
+/* page area */
+.pages {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.pages ul li {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+.pages ul li.bigButton {
+  width: 110px;
+}
+.pages ul li.middleButton {
+  width: 50px;
+}
+
+.pages ul li a {
+  color: black;
+  /* margin-top: 20%; */
+  /* margin-top: 20px; */
+}
+
+/* aside area */
+.searchBox {
+  height: 35px;
+  padding: 10px;
+}
+aside .searchBox input {
+  padding: 0 10px 0 35px;
+  background-image: url(../img/search.svg);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  height: 35px;
+  width: 270px;
+  border: #c8c6c6 solid 1px;
+}
+
+aside .searchBox .go {
+  display: inline-block;
+  /* box-sizing: border-box; */
+  height: 35px;
+  width: 40px;
+  background: #c8c6c6;
+  position: relative;
+  top: -35px;
+  right: -230px;
+  /* position: absolute;
+  top: 110px;
+  right: 128px; */
+  z-index: 2;
+  text-align: center;
+  /* padding-top: 8px; */
+}
+
+/* tagSearch area */
+.tagSelect ul li {
+  border: solid #c8c6c6 1px;
+  border-left: solid 5px #f7d08a;
+  border-bottom: 0px;
+  padding: 15px;
+  margin-bottom: 1px;
+}
+
+.tagSelect ul li:last-child {
+  border-bottom: solid #c8c6c6 1px;
+}
+.tagSelect ul li.selected {
+  border-left: solid 7px #ffca03;
+}
+
+/* calendar area */
+.canlendar {
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.canlendar .title {
+  text-align: center;
+  color: #ffca03;
+  padding-top: 10px;
+  font-size: 15px;
+  /* text-transform: uppercase; */
+  position: relative;
+}
+
+.canlendar .title #prev {
+  position: absolute;
+  top: -3px;
+  left: 15px;
+  background: url(../img/left.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 50px;
+  height: 50px; */
+  padding: 25px;
+  /* z-index: 2; */
+}
+.canlendar .title #next {
+  position: absolute;
+  top: -3px;
+  right: 15px;
+  background: url(../img/right.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 50px;
+  height: 50px; */
+  padding: 25px;
+  /* z-index: 2; */
+}
+
+.bodyList ul {
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.bodyList ul li {
+  list-style: none;
+  display: block;
+  width: 14.28%;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #a8a8a8;
+  box-sizing: border-box;
+}
+
+/*设置已经过去的日期颜色*/
+.lightgrey {
+  color: #a8a8a8;
+}
+/*设置将来的日期颜色*/
+.bodyList ul li.darkgrey {
+  color: #565656;
+}
+/*日期当天用绿色背景绿色文字加以显示*/
+.bodyList ul li.green {
+  color: #fff;
+}
+.greenbox {
+  border: 1px solid #ffca03;
+  background: #f7d08a;
+}
+
+/* tags area */
+.tags p {
+  color: #ffca03;
+  display: inline-block;
+}
+.tags .title p {
+  font-size: 20px;
+  padding: 10px;
+  color: #565656;
+}
+
+.tags p.large {
+  font-size: 40px;
+}
+.tags p.middle {
+  font-size: 30px;
+}
