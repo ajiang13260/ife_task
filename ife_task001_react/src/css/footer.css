@@ -1,0 +1,27 @@
+footer {
+  color: #fff;
+  background: #f7d08a;
+  text-align: center;
+}
+footer nav.navbar {
+  padding: 10px 0 5px 0;
+}
+footer section {
+  border-top: rgba(225, 225, 225, 0.5) solid 1px;
+}
+
+footer section.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  line-height: 150%;
+  max-width: 980px;
+  margin: auto;
+}
+.links ul {
+  margin-top: 30px;
+}
+.copyright img {
+  margin-top: 15px;
+  margin-bottom: -7px;
+}

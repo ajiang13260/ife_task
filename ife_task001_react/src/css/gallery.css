@@ -1,0 +1,231 @@
+* html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f7f7f7;
+}
+.mainarea {
+  display: flex;
+  width: 1000px;
+  /* height: 100%; */
+  margin: 10px auto 0;
+  /* padding: 20px; */
+  /* background: #fff; */
+}
+.mainarea section {
+  width: 710px;
+  padding: 20px;
+  background: #fff;
+}
+.mainarea aside {
+  width: 300px;
+  /* padding: 20px; */
+  /* background: #fff; */
+  border: none;
+}
+.galleryContent .item {
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+.galleryContent h3,
+.galleryContent p {
+  padding: 5px;
+}
+
+.galleryContent .js {
+  background-color: #6e3cbc;
+}
+.galleryContent .ui {
+  background-color: #7267cb;
+}
+.galleryContent .app {
+  background-color: #f4e185;
+}
+.galleryContent .fr {
+  background-color: #ae431e;
+}
+/* multi-column多栏布局实现瀑布流 */
+.galleryContent {
+  /* column-count: 2;
+  column-gap: 10px; */
+  display: flex;
+  margin-right: 10px;
+}
+.galleryContent .item {
+  border: 1px solid #999;
+  margin-bottom: 10px;
+  /* break-inside: avoid; */
+}
+.galleryContent .item img {
+  width: 100%;
+}
+.galleryContent .item img.bigimg {
+  height: 200px;
+}
+.galleryContent .item img.mdimg {
+  height: 180px;
+}
+.galleryContent .item img.smimg {
+  height: 150px;
+}
+.galleryContent .left {
+  margin-right: 10px;
+}
+.galleryContent .left .bottom {
+  column-count: 2;
+  column-gap: 10px;
+}
+
+.galleryContent .right {
+  column-count: 2;
+  column-gap: 10px;
+}
+.galleryContent .right .item {
+  break-inside: avoid;
+}
+
+/* tabbar */
+.tabbar {
+  /* height: 62px; */
+  /* text-align: start; */
+  padding: 0;
+  display: flex;
+  margin: 0;
+
+  width: 100%;
+}
+.tabbar a {
+  background-color: #fff;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 20px;
+  margin: 0;
+}
+.tabbar a:last-child {
+  border-right: none;
+}
+
+.tabbar a.all {
+  border-top: thistle solid 5px;
+}
+.tabbar a.js {
+  border-top: darkgrey solid 5px;
+}
+.tabbar a.ui {
+  border-top: burlywood solid 5px;
+}
+.tabbar a.fr {
+  border-top: orange solid 5px;
+}
+.tabbar a.app {
+  border-top: yellow solid 5px;
+}
+
+.tabbar a.all:hover {
+  border-top: purple solid 5px;
+  border-bottom: none;
+}
+.tabbar a.js:hover {
+  border-top: blue solid 5px;
+  border-bottom: none;
+}
+.tabbar a.ui:hover {
+  border-top: darkorchid solid 5px;
+  border-bottom: none;
+}
+.tabbar a.fr:hover {
+  border-top: red solid 5px;
+  border-bottom: none;
+}
+.tabbar a.app:hover {
+  border-top: orangered solid 5px;
+  border-bottom: none;
+}
+
+.seemore {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px;
+}
+.seemore img {
+  height: 20px;
+}
+
+/* aside */
+aside .searchBox {
+  /* width: 100%; */
+  background-color: #fff;
+  margin-top: 65px;
+  padding: 10px 0 15px 10px;
+}
+aside .searchBox input#search {
+  width: 150px;
+  height: 40px;
+  background-size: 30px;
+  padding: 0 0 0 40px;
+}
+aside .searchBox .go {
+  top: 0;
+  right: 5px;
+  height: 40px;
+}
+
+/* leaderBoard */
+.leaderBoard {
+  background-color: #fff;
+}
+.leaderBoard h3 {
+  color: #999;
+}
+.leaderBoard ol {
+  padding: 10px;
+  counter-reset: li;
+}
+.leaderBoard li {
+  list-style: decimal;
+  list-style-position: inside;
+  font-size: 15px;
+  padding: 5px 0;
+  /* counter-increment: li; */
+}
+/* .leaderBoard li ::before {
+  content: counter(li);
+  background-color: blueviolet;
+  display: inline-block;
+  margin-left: -1em;
+} */
+.progress-bar {
+  display: inline-block;
+  /* 进度条的槽 */
+  width: 40%;
+  /* 设置进度条的高度 */
+  height: 20px;
+  /*进度条外层div的背景色，进度未达到的地方的颜色 */
+  background-color: #f9e1e3;
+  /* border-radius: 3px; */
+}
+.progress {
+  /* 进度部分 */
+  /* 利用继承父元素宽度的百分比控制进度 */
+  width: 60%;
+  height: 100%;
+  /* 内层背景色即进度达到的颜色 */
+  background-color: #e46a70;
+  /* border-radius: 3px; */
+}
+
+.one .progress {
+  width: 100%;
+}
+.two .progress {
+  width: 80%;
+}
+.three .progress {
+  width: 70%;
+}
+
+.five .progress {
+  width: 30%;
+}
