@@ -4,11 +4,21 @@ function Gallery() {
     <div className="mainarea">
       <div className="main">
         <div className="tabbar">
-          <a className="all">ALL</a>
-          <a className="js">JavaScript Util Functions</a>
-          <a className="ui">UI Components</a>
-          <a className="fr">Framework</a>
-          <a className="app">Applications</a>
+          <a href="*" className="all">
+            ALL
+          </a>
+          <a href="*" className="js">
+            JavaScript Util Functions
+          </a>
+          <a href="*" className="ui">
+            UI Components
+          </a>
+          <a href="*" className="fr">
+            Framework
+          </a>
+          <a href="*" className="app">
+            Applications
+          </a>
         </div>
         <section className="galleryContent">
           <div className="left">

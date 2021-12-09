@@ -16,85 +16,22 @@ function Footer() {
           <h4>Learning materials</h4>
           <ul>
             <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
             </li>
             <li>
-              <a href="#">Hover Style</a>
+              <a href="*">Hover Style</a>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
             </li>
             <li>
-              <a href="#">Link</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4>Links</h4>
-          <ul>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Hover Style</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4>Learning materials</h4>
-          <ul>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Hover Style</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4>Learning materials</h4>
-          <ul>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Hover Style</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
             </li>
           </ul>
         </div>
@@ -102,16 +39,79 @@ function Footer() {
           <h4>Links</h4>
           <ul>
             <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
             </li>
             <li>
-              <a href="#">Hover Style</a>
+              <a href="*">Hover Style</a>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="*">Link</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Learning materials</h4>
+          <ul>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Hover Style</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Learning materials</h4>
+          <ul>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Hover Style</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Hover Style</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
+            </li>
+            <li>
+              <a href="*">Link</a>
             </li>
           </ul>
         </div>

@@ -159,8 +159,8 @@ function Blog() {
                 <span id="calendarTitle">{month}</span>.
                 <span id="calendarYear">{year}</span>
               </h2>
-              <a href="*" id="prev"></a>
-              <a href="*" id="next"></a>
+              {/* <a href="*" id="prev"></a>
+              <a href="*" id="next"></a> */}
             </div>
             <div className="body">
               <div className="bodyList">
